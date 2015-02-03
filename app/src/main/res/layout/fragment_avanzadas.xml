@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bbbbbb"
+    tools:context="com.example.cooking.Fragments.Avanzadas" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#424242">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="#ffffff"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Por Duración:"
+                android:id="@+id/textView"
+                android:gravity="center_vertical"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:paddingLeft="10dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spDuracionAvanzadas" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Por Dificultad:"
+                android:id="@+id/textView2"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spDificultadAvanzadas" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Por Zona:        "
+                android:id="@+id/textView3"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"  />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spZonaAvanzadas" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Por Alimento:  "
+                android:id="@+id/textView4"
+                android:textSize="22dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spAlimentoAvanzadas" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="#ffffff"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:text="Tipo Alimento:    "
+                android:id="@+id/textView5"
+                android:textSize="22dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spTipoAlimentoAvanzadas" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
