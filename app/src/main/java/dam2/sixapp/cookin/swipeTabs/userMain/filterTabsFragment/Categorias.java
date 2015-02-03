@@ -85,7 +85,7 @@ public class Categorias extends android.support.v4.app.Fragment{
             TextView tV = new TextView(context);
             tV.setText(primerNivel[groupPosition]);
             tV.setPadding(70,20,0,20);
-            tV.setTextSize(1,25);
+            tV.setTextSize(1,20);
             tV.setTextColor(Color.parseColor("#000000"));
 
             return tV;
@@ -98,7 +98,7 @@ public class Categorias extends android.support.v4.app.Fragment{
             TextView tV = new TextView(context);
             tV.setText(segundoNivel[groupPosition][childPosition]);
             tV.setPadding(70,20,0,20);
-            tV.setTextSize(1,20);
+            tV.setTextSize(1,16);
             tV.setTextColor(Color.parseColor("#000000"));
 
             return tV;
